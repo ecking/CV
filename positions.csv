@@ -1,0 +1,23 @@
+section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3
+education,TRUE,"Masters, Program Evaluation and Data Analytics","Phoenix, AZ",Arizona State University,2019,2021,Program focusing on research design and data analysis with an emphasis in use of R programming. ,,
+education,TRUE,"Bachelors, Liberal Studies","Phoenix, AZ",Arizona State University,2011,2014,Focus on the merging of multiple disciplines,Focus on women and gender studies,
+education,TRUE,Community College,"Phoenix, AZ",Paradise Valley Community College,2009,2011,Studied cultural anthropology and women and gender studies,,
+education ,TRUE,Community College,"Prague, Czech Republic",Gateway Community College,2011,2011,"Study abroad for a month in Prague, Czech Republic studying art history",,
+certifications,TRUE,Certified Salesforce Administrator,"San Francisco, CA",Salesforce.com,2015,,Salesforce.com Ceritification Program,,
+certifications,TRUE,Certified Salesforce Advanced Administrator,"San Francisco, CA",Salesforce.com,2019,,Salesforce.com Ceritification Program,,
+certifications,TRUE,Certified Sales Cloud Consultant,"San Francisco, CA",Salesforce.com,2019,,Salesforce.com Sales Cloud Certification for Consultants,,
+certifications,TRUE,SCRUM Master Fundamentals ,,ScrumStudy,2017,,,,
+volunteer,TRUE,Salesforce.com Volunteer Administrator,"L.A., CA",Create Now,2015,,,,
+volunteer,TRUE,Volunteer,"Phoenix, AZ",American Muslim Women's Association,2015,,,,
+volunteer,TRUE,Volunteer,"Phoenix, AZ",Welcome to American Project,2012,,Worked with newly arrived refugees ,,
+internships,TRUE,Resettlement Shop Intern,"Phoenix, AZ",International Rescue Committee,2011,2012,"Managed program volunteers, worked with donors to secure funding, worked with newly refugees",,
+full-time work,TRUE,Senior Sales Operations Analyst,"Scottsdale, AZ",Limelight Networks,2020,2020,Senior Analyst primarily performing data anlysis for executive team,,
+full-time work,TRUE,Sales Operations Analyst,"Scottsdale, AZ",Limelight Networks,2017,2020,Manager of Salesforce instance,Perform data analysis for exeuctive team ,Manage sales operations and enablement
+full-time work,TRUE,Product Manager,"Scottsdale, AZ",EdPlus at Arizona State University,2017,2017,Product Manager for mobile application for high school students,,
+full-time work,TRUE,Enterprise Application Businesss Analyst,"Tempe, AZ",Global Launch at Arizona State University,2016,2017,"Data Architecture - ensuring that our Salesforce instance and all integrations (with PPLSFT, SEVIS, and other applications) are developed and maintained for long-term stability and usability","Large-Scale Projects - Developing and growing the breadth and sophistication of our integrations with university-wide systems, and focuses our resources where they will have the greatest benefit to our staff and our students.",Data Analysis - point of contact for data and projections on broad student numbers and transfers to ASU.
+full-time work,TRUE,Business Analyst Specialist,"Tempe, AZ",Global Launch at Arizona State University,2015,2016,"End-to-end process design and new system implementations, collaborating across teams",Reporting and data analysis to drive process improvement and make data informed decisions,
+full-time work,TRUE,Business Analyst Associate,"Tempe, AZ",Global Launch at Arizona State University,2016,2016,Manage Salesforce.com instance and managed University integrations,Speaker at Salesforce.com Dreamforce Conference,
+full-time work,TRUE,Technology Support Analyst Associate,"Tempe, AZ",Global Launch at Arizona State University,2014,2015,Extremely thorough in reconciling data (I have an eye for discrepancies),"Train and support users in all departments; Provide user guides, tips and best practices (120 Force.com users; 60 license users)",
+projects,TRUE,Global Launch Student Community,"Tempe, AZ",Global Launch at Arizona State University,2014,2017,"Developed a Self Service Student Community on the Salesforce Platform with electronic registration, event management, and a mobile-friendly user design. This project works to improve the student experience and allow staff to spend less time on tasks and more time on customer service.",,
+projects,TRUE,Localization of LearnEnglish.asu.edu,"Tempe, AZ",Global Launch at Arizona State University,2016,2017,"learnenglish.asu.edu, site translated into Simplified Chinese and Arabic.",,
+projects,TRUE,Event Management Salesforce Integration,"Tempe, AZ",Global Launch at Arizona State University,2015,2015,Implementing a fully customized events management tool in our Salesforce.com org,,

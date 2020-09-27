@@ -1,0 +1,117 @@
+---
+title: Elyse King's Resume"
+author: Elyse King
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+position_data <- read_csv('positions.csv') %>% 
+  filter(in_resume) %>% 
+  mutate(
+    # Build some custom sections by collapsing others
+    section = case_when(
+      section %in% c('internships', 'volunteer') ~ 'non-profit experience', 
+      section %in% c('projects', 'full-time work') ~ 'positions',
+      section %in% c('education', 'certifications') ~ 'education',
+      TRUE ~ section
+    )
+  ) 
+
+```
+
+
+Aside
+================================================================================
+
+
+![logo](beta_dist.png){width=100%}
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+
+
+- <i class="fa fa-envelope"></i> ecking@asu.edu
+- <i class="fa fa-twitter"></i> elysecara1
+- <i class="fa fa-github"></i> github.com/ecking
+- <i class="fa fa-phone"></i> (602) 478-8543
+
+
+Main
+================================================================================
+
+Elyse King {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+intro_text <- "I bridge the gap between end-users and developers, working to bring high-quality products to our department to advance positive organizational change. As an ASU alumna, everyday, I strive to make an impact, provide access, and deliver excellence.
+
+<br/>
+Passionate about:
+Agile
+Salesforce
+Working cross-functionally
+Leadership
+Social Media
+Yoga
+
+<br/>
+Strengths:
+Focus, Analytical, Futuristic, Individualization, Significance 
+"
+
+
+cat(sanitize_links(intro_text))
+```
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
+
+
+
+Selected Positions {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('positions')
+```
+
+Selected Writing {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% print_section('non-profit experience')
+```
+
+
